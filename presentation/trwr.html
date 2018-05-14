@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Global Water Resources</title>
+  <link rel="stylesheet" href="styles/style.css"/ />
+  <script src="_d3/d3v5.min.js"></script>
+  <script src="_d3/d3-legend.min.js"></script>
+
+</head>
+<body>
+  <div class="content">
+    <h2>Total Renewable Water Resources</h2>
+    <div class="inline-charts">
+      <div class="inline-left">
+        <h3>Top Countries</h3>
+        <svg class="chart" id="trwrpctop"></svg>
+      </div>
+      <div class="inline-right">
+        <h3>Bottom Countries</h3>
+        <svg class="chart" id="trwrpcbot"></svg>
+      </div>
+    </div>
+    <script src="scripts/trwr.js"></script>
+    <p>
+      Data as of 2014</br></br>
+      <strong>Total Renewable Water Resources (TRWR):</strong> The sum of internal renewable water
+      resources (IRWR) and external renewable water resources (ERWR). It corresponds
+      to the maximum theoretical yearly amount of water available for a country
+      at a given moment.</br></br>
+
+      <strong>Dependency Ratio:</strong> Indicator expressing the percent of total renewable water
+      resources originating outside the country. This indicator may theoretically
+      vary between 0% and 100%. A country with a dependency ratio equal to 0% does
+      not receive any water from neighboring countries. A country with a dependency
+      ratio equal to 100% receives all its renewable water from upstream countries,
+      without producing any of its own. This indicator does not consider the possible
+      allocation of water to downstream countries.</br></br>
+
+      (Source:
+      <a href="http://www.fao.org/nr/water/aquastat/data/glossary/search.html?lang=en" target="_blank">Aquastat</a>)
+    </p>
+    <div class="nav"><a href="index.html">Beginning</a> | <a href="maptrwr.html">Previous</a> | <a href="mapaccess.html">Next</a></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Nunito:600|Oswald:600');
+
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com this clears out inconsistencies between broswsers*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+  {border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}
+sub,sup
+{border:0;font:inherit;margin:0;padding:0;font-size:80%}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+  {display:block}
+body
+  {line-height:1}
+ol,ul
+  {list-style:none}
+blockquote,q
+  {quotes:none}
+blockquote:before,blockquote:after,q:before,q:after
+  {content:none}
+table
+  {border-collapse:collapse;border-spacing:0}
+
+body, g {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #223;
+}
+
+h1 {
+  font-size: 2em;
+  color: #CB3E11;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #CB3E11;
+}
+
+h3 {
+  color: #CB3E11;
+}
+
+p {
+  font-size: 0.8em;
+  color: #333;
+}
+
+strong {
+  font-weight: 700;
+}
+
+a {
+  color: #333;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.content {
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: #FFF;
+  padding: 20px;
+  height: 90%;
+  width: 900px;
+}
+
+.content.title {
+  position: relative;
+  padding: 0;
+  margin-top: 125px;
+  background-image: url('water.png');
+  background-color: transparent;
+  height: 425px;
+}
+
+.title-text {
+  font-family: 'Nunito', sans-serif;
+  font-size: 225px;
+  color: #223;
+  position: absolute;
+  bottom: -40px;
+  left: -7px;
+}
+
+.subtitle-text {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  top: 155px;
+  width: 900px;
+  color: #223;
+}
+
+.name-text {
+  font-size: 25px;
+  text-align: center;
+  position: absolute;
+  top: 200px;
+  width: 900px;
+  color: #223;
+}
+
+.note-slide {
+  padding-top: 7%;
+  padding-left: 5%;
+  padding-bottom: 7%;
+}
+
+.inline-charts .inline-left {
+  float: left;
+}
+
+.nav {
+  font-size: 0.7em;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.title .nav {
+  position: absolute;
+  bottom: -15px;
+  left: 870px;
+}
+
+.title .nav a {
+    color: #CCD;
+    font-size: 1.1em;
+}
+
+ul {
+  font-size: 1.7em;
+  padding-left: 2em;
+  line-height: 1.5;
+}
+
+li {
+  list-style-type: circle;
+  list-style-position: outside;
+  padding-bottom: 1em;
+}
+
+ul.sub-list {
+  font-size: .8em;
+  padding-left: 1em;
+  line-height: 1.5;
+}
+
+.sub-list li {
+  list-style-type: disc;
+}
+
+.bar {
+  opacity: 0.9;
+}
+
+.bar:hover {
+  opacity: 0.7;
+}
+
+.box {
+  stroke-width: 1px;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.whisker line {
+  stroke-width: 2px:
+  shape-rendering: crispEdges;
+}
+
+.box:hover{
+  opacity: 0.7;
+}
+
+.circle, circle.swatch {
+  opacity: 0.6
+}
+
+.circle:hover {
+  opacity: 0.9;
+}
+
+.ylabel, .xlabel {
+  text-align: center;
+  text-anchor: middle;
+  font-size: 1em;
+}
+
+.ylabel .sup {
+  baseline-shift: super;
+  font-size: 0.5em;
+}
+
+.ylabel .sub {
+  baseline-shift: sub;
+  font-size: 0.5em;
+}
+
+.axis-x text {
+  color: #000;
+}
+
+.axis text {
+  font-size: 1em;
+}
+
+.axis-x.text45 text {
+  transform: rotate(-45deg) translate(-8px,-2px);
+  font-size: 1.2em;
+  color: #000;
+  text-anchor: end;
+}
+
+/*muli-line chart labels*/
+.line-label {
+  font-size: 0.7em;
+}
+
+/* axis lines*/
+.axis .domain {
+  stroke: #333;
+}
+
+/* axis tick marks*/
+.tick line {
+  stroke: #333;
+}
+
+/*grid lines*/
+.grid line, .grid-x line {
+  stroke: #999;
+}
+
+.tooltip {
+  font-size: 0.7em;
+  background-color: #EEF;
+  padding: 5px;
+  border-color: #000;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.legendPane text {
+  font-size: 0.7em;
+  fill: #000;
+}
+
+.legendPane.horizontal .legendCells .label {
+  transform: rotate(-45deg) translate(-3px, 25px);
+}
+
+#trwrpcmap .legendPane.horizontal .legendCells {
+  transform: translate(0px, 25px);
+}
+
+#accessmap .legendPane.horizontal .legendCells {
+  transform: translate(0px, 10px);
+}
+
+.country {
+  opacity: 1;
+}
+
+.country:hover {
+  opacity: 0.7;
+}
+
+.map {
+  margin: 20px 0;
+}
