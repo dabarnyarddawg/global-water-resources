@@ -1,5 +1,5 @@
 # Global Water Resources
-This is an web-based presentation on global water resources with visualizations created using d3.js (v5.1.0).
+This is a web-based presentation on global water resources with visualizations created using d3.js (v5.1.0).
 
 ## File Structure
 * code: contains a Jupyter Notebook file with Python code to clean the data
